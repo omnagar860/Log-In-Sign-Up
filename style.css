@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(#f9fbe7, rgb(79 79 193));
+}
+.form-wrapper {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 5% 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-container {
+  width: 50%;
+  height: 100%;
+}
+.img-container > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+.form-container {
+  width: 50%;
+  height: 100%;
+  background-color: rgb(32, 35, 49);
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding: 10px;
+}
+.form-container > .title {
+  display: flex;
+  gap: 30px;
+  padding-bottom: 20px;
+}
+.title > div {
+  padding: 10px 25px;
+  background-color: rgb(38, 42, 58);
+  border-radius: 15px;
+  color: white;
+  position: relative;
+}
+.inner-form-wrapper > span {
+  display: flex;
+  align-items: center;
+  color: rgb(102, 108, 136);
+  background-color: rgb(38, 42, 58);
+  border-radius: 15px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.inner-form-wrapper > span > input {
+  width: 100%;
+  font-size: 20px;
+  padding: 10px;
+  color: rgb(102, 108, 136);
+  background-color: rgb(38, 42, 58);
+  outline: none;
+  border: none;
+}
+.inner-form-wrapper > span > i {
+  font-size: 20px;
+  color: rgb(102, 108, 136);
+  display: contents;
+}
+.inner-form-wrapper > div {
+  color: rgb(102, 108, 136);
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 10px;
+}
+input[type="checkbox"] {
+  position: absolute;
+  -webkit-appearance: none;
+  background-color: rgb(38, 42, 58);
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.inner-form-wrapper > div > .ml {
+  display: block;
+  margin-left: 30px;
+}
+
+button {
+  width: 100%;
+  background: rgb(68, 177, 11);
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+  border: none;
+  font-size: 20px;
+  margin: 10px 0px;
+}
+.center-text {
+  position: relative;
+}
+
+hr {
+  border: 1px solid rgb(38, 42, 58);
+  margin: 20px 0px;
+  width: 100%;
+}
+.or-text {
+  position: absolute;
+  left: 50%;
+  background-color: rgb(38, 42, 58);
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: rgb(102, 108, 136);
+  text-transform: capitalize;
+  transform: translateX(-50%);
+}
+.social-icon {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.social-icon > i {
+  font-size: 25px;
+  background-color: rgb(38, 42, 58);
+  border-radius: 15px;
+  padding: 10px 20px;
+}
+.social-icon > i:nth-child(1):hover {
+  background-color: black;
+  color: white;
+}
+.social-icon > i:nth-child(2):hover {
+  background-color: blue; 
+   color: white;
+
+}
+.social-icon > i:nth-child(3):hover {
+  color: white;
+  background-color: hotpink;
+}
+.social-icon > i:nth-child(4):hover {
+  background-color: royalblue;  
+  color: white;
+
+}
